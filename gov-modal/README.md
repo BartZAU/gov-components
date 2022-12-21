@@ -9,3 +9,7 @@ https://github.com/DigitialRambo/gov-components
 ## Author
 
 Bart Zabielski
+
+## notes
+
+I will now add gov style designs eg spacing, colours, borders, fonts etc.
