@@ -1,3 +1,30 @@
-.app {
-  color: "red";
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,700;1,400&amp;display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+@import "node_modules/nsw-design-system/src/main";
+
+// Core libraries
+@import "node_modules/nsw-design-system/src/global/scss/settings/settings";
+@import "node_modules/nsw-design-system/src/global/scss/base/all";
+@import "node_modules/nsw-design-system/src/global/scss/helpers/all";
+@import "node_modules/nsw-design-system/src/global/scss/settings/palette";
+@import "node_modules/nsw-design-system/src/global/scss/settings/theme";
+@import "node_modules/nsw-design-system/src/core/all";
+
+// mine
+@import "./components//modal/modal.scss";
+
+// Components // todo remove example import
+
+@import "node_modules/nsw-design-system/src/components/in-page-alert/in-page-alert";
+
+// todo move this
+.App {
+  position: relative;
+  display: flex;
+  // font-family: ; todo
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
 }

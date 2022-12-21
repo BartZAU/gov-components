@@ -1,13 +1,20 @@
-import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import React, { useState } from "react";
+import Modal from "./components/modal/Modal";
 
-function App() {
+import ModalStaticContent from "./components/modal/ModalStaticContent";
+
+const App: React.FC = () => {
+  const [modalOpen, setModalOpen] = useState(false);
   return (
-    <div className="modal">
-      <h1>test</h1>
+    <div className="App">
+      <Modal modalOpen={modalOpen} setModalOpen={setModalOpen}>
+        <ModalStaticContent title="Lorem Ipsum" />
+      </Modal>
+      <button type="button" onClick={() => setModalOpen(true)}>
+        open modal
+      </button>
     </div>
   );
-}
+};
 
 export default App;
