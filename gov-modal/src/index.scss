@@ -13,18 +13,3 @@
 
 // mine
 @import "./components//modal/modal.scss";
-
-// Components // todo remove example import
-
-@import "node_modules/nsw-design-system/src/components/in-page-alert/in-page-alert";
-
-// todo move this
-.App {
-  position: relative;
-  display: flex;
-  // font-family: ; todo
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  height: 100vh;
-}

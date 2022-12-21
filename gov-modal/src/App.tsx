@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import Modal from "./components/modal/Modal";
 
-import ModalStaticContent from "./components/modal/ModalStaticContent";
+import ModalDemoContent from "./components/modal/ModalDemoContent";
 
 const App: React.FC = () => {
   const [modalOpen, setModalOpen] = useState(false);
   return (
-    <div className="App">
+    <div className="main">
       <Modal modalOpen={modalOpen} setModalOpen={setModalOpen}>
-        <ModalStaticContent title="Lorem Ipsum" />
+        <ModalDemoContent title="Lorem Ipsum" />
       </Modal>
       <button type="button" onClick={() => setModalOpen(true)}>
         open modal

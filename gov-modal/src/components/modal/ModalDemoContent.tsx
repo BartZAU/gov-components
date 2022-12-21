@@ -1,10 +1,10 @@
 import React from "react";
 
-type ModalStaticContentProps = {
+type ModalDemoContentProps = {
   title: string;
 };
 
-const ModalStaticContent: React.FC<ModalStaticContentProps> = ({ title }) => {
+const ModalDemoContent: React.FC<ModalDemoContentProps> = ({ title }) => {
   return (
     <div className="modal-content">
       <h1 className="modal-content__title">{title}</h1>
@@ -15,4 +15,4 @@ const ModalStaticContent: React.FC<ModalStaticContentProps> = ({ title }) => {
   );
 };
 
-export default ModalStaticContent;
+export default ModalDemoContent;

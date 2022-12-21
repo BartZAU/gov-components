@@ -2,7 +2,7 @@ import { render, fireEvent } from "@testing-library/react";
 import { useState } from "react";
 import Modal from "./Modal";
 
-import ModalStaticContent from "./ModalStaticContent";
+import ModalStaticContent from "./ModalDemoContent";
 
 describe("Modal test suite", () => {
   test("modal shows the children and a close button", () => {
