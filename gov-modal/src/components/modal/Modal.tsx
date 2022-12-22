@@ -20,7 +20,7 @@ const Modal: React.FC<ModalProps> = ({ modalOpen, setModalOpen, children }) => {
   if (!modalOpen) return null;
 
   return createPortal(
-    <div role="dialog" className="modal">
+    <div role="dialog" className="modal nsw-text--light">
       {children}
       <button
         type="button"

@@ -12,4 +12,4 @@ Bart Zabielski
 
 ## notes
 
-I will now add gov style designs eg spacing, colours, borders, fonts etc.
+I will now add gov style designs eg spacing, colours, borders, fonts, focus states and keyboard accessibility
